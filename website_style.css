@@ -26,14 +26,21 @@ body{
     color: black; 
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+
 /* Navagation Bar Container */
 
 #header-navbar{ 
     background-color: #2C3333;
     color: white;
+
     display: flex;
     flex-direction: row; 
     justify-content: space-between;
+
     align-items: center;
     padding: 15px 10%;
 }
@@ -71,6 +78,8 @@ body{
 
 .nav-links li a{
     transition: all 0.3s ease 0s; 
+    color: white; 
+    text-decoration: none;
 }
 
 .nav-links li a:hover{
@@ -81,7 +90,7 @@ body{
     padding: 9px 25px; 
 
     font-size: 20px; 
-    background-color: rgba(0, 136, 169, 1);
+    background-color: whitesmoke;
     border: none; 
     border-radius: 50px;
     cursor: pointer; 
@@ -104,6 +113,7 @@ header-navbar button:hover{
 
     display: flex; 
     flex-direction: column; 
+    flex: 1; 
     justify-content: center; 
     align-content: center; 
     padding: 0 20px; 
@@ -122,6 +132,25 @@ header-navbar button:hover{
     margin-bottom: 200px; 
     display: flex;
     justify-content: center;  
+}
+
+button{
+    padding: 10px 25px; 
+
+    font-size: 18px; 
+    background-color: whitesmoke;
+
+
+    border: none; 
+    border-radius: 75px;
+
+
+    cursor: pointer; 
+    transition: all 0.3s ease 0s; 
+}
+
+button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
 }
 
 
@@ -222,4 +251,10 @@ button:hover{
     font-weight: bold; 
     text-align:right; 
     font-size: 30px; 
-} */ */
+} 
+
+
+
+
+
+*/
